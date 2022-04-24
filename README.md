@@ -25,23 +25,32 @@
 >
 > 1. Clone this Git repository
 > 2. Install Python3 and all the necessary libraries in a clean environment (the libraries are listed in the next section)
-> 3. Run in the main folder of this repository with your command line the command: `py manage.py runserver`
+> 3. Run with the command line in the root folder of this project the command: `py manage.py runserver`
 > 4. Access to the endpoints with your preferred web browser
+> 
+>NOTE: To execute all the test cases, run with the command line in the root folder of this project the command: `py manage.py test`
 
 ---
 
 > ### Libraries needed
 >
->This project uses the Django framework (v4.0.4) for Python (v3.10.2) with the following libraries:
+> This project uses the Django framework (v4.0.4) for Python (v3.10.2) with the following libraries:
 >
-> - asgiref v3.5.0
-> - certifi v2021.10.8
-> - charset-normalizer v2.0.12
-> - Django v4.0.4
-> - idna v3.3
-> - requests v2.27.1
-> - sqlparse v0.4.2
-> - tzdata v2022.1
-> - urllib3 v1.26.9
+> > - Django v4.0.4
+> > - requests v2.27.1
+> > - coverage v6.3.2
+> > - Faker v13.4.0
+>
+> The following libaries are installed automatically with the previous ones:
+> 
+> > - asgiref v3.5.0
+> > - certifi v2021.10.8
+> > - charset-normalizer v2.0.12
+> > - idna v3.3
+> > - python-dateutil v2.8.2
+> > - six v1.16.0
+> > - sqlparse v0.4.2
+> > - tzdata v2022.1
+> > - urllib3 v1.26.9
 
 ---

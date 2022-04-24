@@ -8,13 +8,13 @@ def generateRequest(url, payload={}):
     if response.status_code == 200:
         return response.json()
     else:
-        return null
+        return None
 
 def get_random_hero():
     offset = str(random.randint(0, 1560))
     payload = {'orderBy': 'name', 'limit': '1', 'offset': offset, 'ts': '1',
-              'apikey': 'bba91db5f9c6865d7e903f5391dca74b',
-              'hash': 'c7ebb8b5440c9fdd1070dfd8899c9d64'}
+               'apikey': 'bba91db5f9c6865d7e903f5391dca74b',
+               'hash': 'c7ebb8b5440c9fdd1070dfd8899c9d64'}
 
     response = generateRequest("https://gateway.marvel.com:443/v1/public/characters", payload)
     randomHeroObj = Hero()
